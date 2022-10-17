@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 15-10-2022 a las 01:59:57
+-- Tiempo de generación: 18-10-2022 a las 01:13:32
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 8.1.6
 
@@ -62,14 +62,14 @@ CREATE TABLE `productos` (
 --
 
 INSERT INTO `productos` (`id`, `modelo`, `marca`, `precio`, `id_categoria`, `imagen`) VALUES
-(78, 'Adidas Bad Bunny', 'Adidas', 148999, 12, 'uploads/6349624d5ea58.jpg'),
-(79, 'Drew House', 'Drew', 59757, 21, 'uploads/63496299e7af9.jpg'),
-(80, 'Flowers ', 'Billie Eilish', 18058, 38, 'uploads/634962cfbe6fc.jpg'),
 (83, 'Nike Air Max', 'Nike', 78129, 12, 'uploads/634963a64fd3e.jpg'),
 (84, 'Travis Scott Cactus', 'Travis Scott', 29999, 38, 'uploads/634963d52c29d.jpg'),
 (85, 'Jordan 1', 'Nike', 82000, 12, 'uploads/634963fe3b8ed.jpg'),
-(86, 'Nike', 'Nike', 41000, 12, 'uploads/634964c5b1b9e.jpg'),
-(87, 'Air Force 1 ', 'Nike', 74555, 12, 'uploads/634966a3eccfe.jpg');
+(87, 'Air Force 1 ', 'Nike', 74555, 12, 'uploads/634966a3eccfe.jpg'),
+(89, 'Bad Bunny', 'Adidas', 148120, 12, 'uploads/634b0ca184c49.jpg'),
+(90, 'Drew House', 'Drew', 57000, 21, 'uploads/634b0cbd44251.jpg'),
+(91, 'Flowers', 'Billie Eilish', 18500, 38, 'uploads/634b0cddbe145.jpg'),
+(93, 'Short Royal', 'Eric Manuel', 18500, 19, 'uploads/634b0f75013bb.jpg');
 
 -- --------------------------------------------------------
 
@@ -123,13 +123,13 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `categorias`
 --
 ALTER TABLE `categorias`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
 
 --
 -- AUTO_INCREMENT de la tabla `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=88;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=104;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
